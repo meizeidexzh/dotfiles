@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+def play_with_cat():
+    pass
+
+
+if __name__ == '__main__':
+    play_with_cat()
+||||||| merged common ancestors
+=======
+def hallo_world():
+    pass
+
+
+if __name__ == '__main__':
+    hallo_world()
+>>>>>>> feat_1

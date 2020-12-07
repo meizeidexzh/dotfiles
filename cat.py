@@ -3,4 +3,4 @@ def play_with_cat():
 
 
 if __name__ == '__main__':
-    play_with_cat()
+    hallo_world()
