@@ -5,6 +5,9 @@ filetype on
 filetype plugin on
 filetype indent on
 set autoread
+set tags=./.tags;,.tags
+set autochdir
+
 
 
 set tabstop=4
@@ -14,8 +17,9 @@ set cindent
 set nu
 set smarttab
 set ai sw=4
-set foldmethod=marker
+set foldmethod=syntax
 
+nnoremap <C-u> :NERDTree<CR>
 
 nnoremap j jzz
 nnoremap k kzz
@@ -33,7 +37,10 @@ nnoremap <C-l> <C-w>l
 nnoremap <C-h> <C-w>h
 
 " ==> plugs ----------------------------------{{{1 
+call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 
+call plug#end()
 
 
 
