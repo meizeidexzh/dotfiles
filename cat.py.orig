@@ -1,16 +1,18 @@
-<<<<<<< HEAD
 def play_with_cat():
-    pass
-
-
-if __name__ == '__main__':
-    play_with_cat()
+<<<<<<< HEAD
+    print("hallo cat")
 ||||||| merged common ancestors
 =======
+    print("play with cat")
+>>>>>>> 0f9b136df7c305eded1503608ed46250d5999385
+    pass
+
+def play_with_dog():
+    pass
+
 def hallo_world():
     pass
 
-
+## this is the main func
 if __name__ == '__main__':
     hallo_world()
->>>>>>> feat_1
