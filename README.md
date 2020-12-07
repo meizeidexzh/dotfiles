@@ -5,6 +5,8 @@
 - vim
 - bashrc
 - 后续还会添加
+    - .vimrc
+    - .bashrc
 
 
 ## vim
