@@ -117,3 +117,9 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=${PATH}:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin
+alias cd_kernel='cd ~/arm_linux/linux_kernel_alientex/'
+alias git_logs='git log --graph --oneline'
+
+# setting for git
+export GIT_EDITOR=vim
+
