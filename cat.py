@@ -1,4 +1,5 @@
 def play_with_cat():
+    print("hallo cat")
     pass
 
 def play_with_dog():
